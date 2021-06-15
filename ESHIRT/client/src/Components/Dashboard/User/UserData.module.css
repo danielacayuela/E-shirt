@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap%27');
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box{
+    box-shadow: 5px 5px 5px 5px rgb(228, 227, 227);
+    border: 2px solid grey;
+    border-radius: 20px;
+    margin: 15px;
+    width: 400px;
+}
+
+
+.ul{
+    border: 5px solid rgba(255, 255, 255, 0.411);
+    list-style: none;
+    background: rgba(255, 255, 255, 0.411);
+    border-radius: 5px;
+}
+.ul li{
+    color: black;
+    padding: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    font-weight: 500;
+    font-size: 150%;
+    margin: 5px;
+}
+
+.title{
+    color: black;
+    font-size: 300%;
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    margin: 0%;
+}
+
+.boxBtn{
+    display: flex;
+}
+
+
+.btn{
+    width: 120px;
+    height: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 5px;
+    background: white;
+    border-radius: 5px;
+    border: 2px solid #ffb627;
+}
+.btn:hover{
+    background: black;
+    color: #ffb627;
+}
+
+
+@media (max-width: 400px){
+    
+    .boxBtn{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box{
+        width: 300px;
+    }
+
+}

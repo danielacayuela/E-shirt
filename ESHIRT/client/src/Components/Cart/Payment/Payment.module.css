@@ -1,0 +1,121 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-image: url('https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/175717207/original/fddb4f371c9afeac5ebc1f66e7564543087cbd6f/create-customised-t-shirts-and-merchandise.jpg');
+    background-size: contain;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    padding: 3vh;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.363);
+}
+
+
+.form > div{
+    display: flex;
+    color: black;
+    font-size: 3vh;
+    margin: 1vh;
+}
+
+.form > input{
+    display: flex;
+    font-size: 20px;
+    width: 30vh;
+    height: 5vh;
+    margin: 0.5vh;
+    text-align: center;
+    background: rgba(3, 3, 3, 0.801);
+    color: rgb(255, 188, 2);
+    border: 2px solid rgb(255, 188, 2);
+    border-radius: 10px;
+    outline: none;
+}
+
+.form > input:active{
+    display: flex;
+    width: 30vh;
+    height: 5vh;
+    margin: 0.5vh;
+    text-align: center;
+    background: transparent;
+    color: rgb(255, 188, 2);
+    border: 2px solid rgb(255, 188, 2);
+    outline: none;
+}
+
+.form > button{
+    width: 10vh;
+    height: 5vh;
+    font-size: 20px;
+    background: transparent;
+    transition: ease 0.3s;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+}
+
+.form > button:hover{
+    background: rgb(255, 188, 2);
+    color: black;
+    border: 2px solid black;
+}
+
+.form > a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form > a > img {
+    width: 80%;
+    height: 100%;
+}
+
+.mercadopago{
+    color:white;
+    width: 12vh;
+    height: 6vh;
+    background: black;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://http2.mlstatic.com/resources/frontend/landings-mp/images/mercadopago-og.jpg);
+    background-size: cover; 
+    border-radius: 2vh;
+    margin: 1vh;
+}
+
+.inactive{
+    width: 10vh;
+    height: 7vh;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 960px){
+    .form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3vh;
+        border: 2px solid black;
+        background: rgba(0, 0, 0, 0.507);
+    }
+    
+    .form > div{
+        display: flex;
+        color: white;
+        font-size: 3vh;
+        margin: 1vh;
+    }
+}

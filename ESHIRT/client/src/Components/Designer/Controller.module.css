@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.controllerContainer {
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 3%;
+    flex-wrap: wrap;
+    max-width: 20%;
+    /* margin: 0 auto; */
+    height: 80vh;
+    align-items: flex-start;
+    background: transparent;
+    border-radius: 25px;
+    position: relative;
+    justify-content: space-around;
+
+}
+
+.buttonsContainer {
+    height: max-content; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; 
+    align-items: center;
+    width: max-content; 
+    min-width: 6em;
+}
+
+.buttons {
+    height: min-content;
+    margin: 0 auto;
+    color: #ffb627;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+    font-size: 16px;
+    font-weight: 900;
+    border: 2px solid #ffb627;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    transition: ease 0.5s;
+    border-radius: 6px;
+}
+
+
+
+.selectedButtons  {
+    height: min-content;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #ffb627;
+    font-size: 16px;
+    font-weight: 900;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    color: black;
+}
+
+
+
+.btnDescription > h4 {
+    color: #ffb627;
+    margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.btnSelected > h4{
+    color: black;
+    margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+@media (max-width: 800px) {
+    
+    .controllerContainer {
+        width: 95%;
+    }
+
+    .buttonsContainer {
+        width: 20%;
+    }
+}
+
+@media (max-width: 610px) {
+    .controllerContainer {
+        flex-direction: row;
+        max-width: 100vw;
+        width: auto;
+        height: max-content;
+    }   
+}
+
+@media (max-width: 400px) {
+    .buttonsContainer {
+        height: max-content; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center; 
+        align-items: center;
+        width: max-content; 
+        min-width: 5em;
+    }
+    
+    /* .buttons {
+        
+    height: min-content;
+    margin: 0 auto;
+    color: #ffb627;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+    font-size: 16px;
+    font-weight: 900;
+    border: 2px solid #ffb627;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    transition: ease 0.5s;
+    border-radius: 6px;
+    } */
+}

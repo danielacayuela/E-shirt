@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.generalHome{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* align-items:flex-start; */
+    padding-top: 10%;
+    /* border: solid 2px violet;   */
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://unblast.com/wp-content/uploads/2019/07/Urban-T-Shirt-Mockup-3.jpg);
+    background-size: cover;
+}
+
+.homeBg {
+    background-image: url('https://images.unsplash.com/photo-1557431968-2c43c8e896e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw5MDY4OTQ0NXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60'), url('https://images.unsplash.com/photo-1591480185595-2bb4e4b27ff4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTU5fHx0JTIwc2hpcnRzfGVufDB8MXwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    background-position: left top, right top;
+    background-repeat: no-repeat;
+    background-size: 50%, 50%;
+}
+
+.homeBg h1{
+    padding: 0;
+    margin-top:20px;
+    font-size: 70px;
+    margin-bottom:0px;
+    color:#ffb627 ;
+    text-shadow: 1px 4px 1px white;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    /* margin: 0 auto; */
+}
+
+@media(max-width:830px){
+    .generalHome h1{
+        width: 80%;
+        margin: 0 auto;
+        font-size: 50px;
+    }
+}
+
+@media(max-width:770px){
+    .generalHome h1{
+        width: 80%;
+        margin: 0 auto;
+        font-size: 40px;
+    }
+}
+
+@media(max-width:400px){
+    .generalHome h1{
+        width: 50%;
+        margin: 0 auto;
+        font-size: 25px;
+    }
+}
+
+
+

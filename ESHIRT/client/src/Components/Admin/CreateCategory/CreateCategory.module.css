@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+.general {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap:  wrap ;
+    justify-content: center;
+}
+
+.TitleCategory{
+    display: flex;
+    justify-content: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 450%;
+    align-items: center;
+    align-content: center;
+    flex-wrap:  wrap ;
+}
+.Categories{
+display: flex;
+justify-content: space-around;
+align-items: center;
+align-content: center;
+flex-wrap:  wrap ;
+}
+.Titles{
+    font-size: 150% ;
+    color: black;
+    align-items: center;
+    align-content: center;
+    flex-wrap:  wrap ;
+}
+.Contenedores{
+    display:flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap:  wrap ;
+    justify-content: center;
+}
+.Tarjet{
+    border: 2px solid black;
+    background-color: rgba(252, 218, 29, 0.151);
+    border-radius: 5px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap:  wrap ;
+    margin: 1vh;
+    padding: 1vh;
+
+    
+}
+.Titles:first-letter {
+    text-transform: uppercase;
+}    
+.Btn1{
+    background-color: white;
+    color: black;
+    border-radius: 3vh;
+    transition: ease-in 0.3s;
+    
+  }
+  
+  
+    .Btn1:hover {
+      background-color: #ffb627;
+      color: black;
+    }
+  
+    .BtnR{
+      background-color: white;
+      color: black;
+      border-radius: 3vh;
+      transition: ease-in 0.3s;
+    }
+  
+    .BtnR:hover{
+      background-color: red;
+      color: white;
+    }
+  
+.Create{
+    font-size: 200%;
+    font-family: 'Shadows Into Light', cursive;
+    display: flex;
+    justify-content: center;
+    color: black;
+    align-content: center;
+    flex-wrap:  wrap ;
+    justify-content: center;
+}
+.Contains{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap:  wrap ;
+    justify-content: center;
+}
+.ContainCreate{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap:  wrap ;
+    justify-content: center;
+}
+.Create1{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.Create2{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 3vh;
+    transition: ease-in 0.3s;
+    align-content: center;
+    flex-wrap:  wrap ;
+    justify-content: center;
+    color: white;
+    background-color: black;
+
+}
+.Create2:hover{
+    background-color: white;
+    border-radius: 3vh;
+    color: black;
+}
+.ContBtn3{
+    display: flex;
+    justify-content: center;
+}
+.Btn3{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.Btn3:hover{
+    color:#ffb627;
+  }
+.pagination {
+    display: flex;
+    padding: 0;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+    height: 10vh;
+    width: 100%;
+  }
+  .pagination__link {
+    font-weight: bold;
+  }
+  .pagination__link__active a {
+    color: black;
+    background: #ffb627;
+  }
+  .pagination__link__disabled a {
+    color:black;
+    
+  }

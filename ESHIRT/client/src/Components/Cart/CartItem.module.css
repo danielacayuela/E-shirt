@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.cartCard{
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgb(228, 227, 227);
+    display: flex;
+    margin-bottom: 5px;
+    color:white;
+    height: 90px;
+    margin:6px;
+    margin-left: 50px;
+    padding: 3%;
+    background-color: rgba(0, 0, 0, 0.801);
+}
+
+.picture{
+    width: 65px;
+    height: auto;
+    margin:10px;
+}
+
+.picture img{
+    height: 100%;
+}
+
+.column1{
+    width: 25%;
+    margin-left:30px;
+    margin-right:20px;
+    margin-top:10px;
+    color:white;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.detail{
+    margin-bottom: 10px;  
+}
+
+.column2{
+    width: 10%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    margin-right:60px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.column3{
+    margin-top:4%;
+    width: 30%;  
+    color:white;
+}
+
+.buttonAM{
+    font-family: 'Roboto Condensed', sans-serif;
+    border-color: transparent;
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:1px;
+    margin-right: -2px;
+    margin-left: -2px;
+    background-color: white;
+    font-size:15px;
+}
+
+.buttonAM:hover{
+    background-color: rgba(200, 195, 195, 0.407);
+}
+
+.name{
+    font-size:20px;
+    
+}
+
+.sku{
+    font-size:10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: -5px;
+}
+
+.amount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
+.amount button{
+    width:15%;
+    background-color: transparent;
+    color: white;
+    border: solid 2px white;
+    display: flex;
+    justify-content: center;
+    color:white;
+}
+
+.qty{
+    display: flex;
+    justify-content: center;
+    width:15%; 
+    margin-left:-3px;
+    margin-top: 2px;
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.size{
+    width:35%;
+    margin:auto;
+    margin-bottom: 15px;
+    padding-left: 35%;
+    padding-right: 35%; 
+}
+
+.size select {
+    background-color: transparent;
+    border: solid 1px color;
+    display: flex;
+    justify-content: center;
+    color:white;
+    border-radius: 5px;
+    width: 55px;
+    outline: none;
+}
+
+.size select:hover{
+    background-color: white;
+    color: black;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    height: 40%;
+    margin: 0;
+}
+
+.btns button {
+    background-color: transparent;
+    border-color: transparent;
+    color:white;
+    
+}
+
+.btns button:hover{
+    color:#ffb627;
+}
+
+.blackHeart{
+    color:white;
+    background-color: transparent;
+    border-color: transparent;
+}
+.greyHeart{
+    color:grey;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.image{
+    width:100%;
+}
+
+@media(max-width:1024px){
+    .cartCard{
+        height: 130px;
+    }
+
+    .picture{
+        height: 100%;
+        width: 40%;
+        margin-top:0px;
+    }
+
+    .column1{
+        margin-top: 15px;
+    }
+
+    .column2{
+        margin-right: 10px;
+    }
+
+    .column3{
+        display: flex;
+        flex-direction: column;
+    }
+    .amount{
+        width: 100%;
+    }
+
+    .size {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(max-width:768px){
+    .cartCard{
+        width:90%;
+        margin-left: 15px;
+    }
+
+    .picture{
+        height: 90%;
+        width: 20%;
+        margin-top: 0px;
+    }
+
+    .column1{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0;
+    }
+}
+
+@media(max-width:425px){
+
+    .picture{
+        height: 85%;
+        width: 25%;
+        margin-top: 10px;
+    }
+}
+
+@media(max-width:375px){
+
+    .picture{
+        height: 70%;
+        width: 30%;
+        margin-top: 20px;
+    }
+    .qty{
+            margin-left:1px;
+            margin-right:1px;
+    }
+}

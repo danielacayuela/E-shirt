@@ -1,0 +1,189 @@
+.containerOfSize {
+    display: flex; 
+    flex-direction: column; 
+    width: 80%; 
+    align-items: center;
+    min-height: 85vh;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 125px;
+    width: 40%;
+    border: 2px solid #ffb627;
+    border-radius: 10px;
+    backdrop-filter: blur(5px)
+}
+
+.title > h2 {
+    margin-right: 40px;
+    margin-left: 40px;
+    padding: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: black;
+    color:white ;
+    border: 2px solid #ffb627;
+    border-radius: 10px;
+}
+
+/* 
+.title {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 125px;
+    width: 100%;
+    
+}
+
+.title > h4 {
+
+    width: max-content;
+    display:'flex';
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0 auto;
+    color: black;
+} */
+
+.sizeCardContainer {
+    margin: 0 auto; 
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sizeCard {
+    min-height: 225px;
+    border: 1px solid black;
+    border-radius: 25px;
+    display: flex;
+    width: 20%;
+    align-items: center;
+    box-shadow: 1px 1px 11px 2px black;
+    transition: all 0.23s ease-in;
+}
+
+.sizeCard > h2{
+    margin: 0 auto;
+    font-size: 92px;
+    color: black;
+    text-shadow: 0.1px 0.1px 1px #FEC601, 0.1px 0.1px 1px #FEC601,0.1px 0.1px 1px #FEC601, 0.1px 0.1px 1px #FEC601;
+}
+
+.sizeCard:hover {
+    transform: scaleX(1.2) scaleY(1.2);
+    background-color: #ffb627;
+    box-shadow: 1px 1px 15px 8px black;
+}
+
+.sizeBoard {
+    margin-top: 14vh;
+}
+/* .form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+} */
+
+/* .form > select {
+    display: flex;
+    border: 2px solid coral;
+    background-color: black;
+    color: coral;
+    outline: none;
+    margin: 1vh;
+    height: 33px;
+    
+    
+}
+ */
+/* .form > select > option {
+    border: 2px solid coral;
+    background-color: black;
+    color: coral;
+}
+ */
+/* .form > select > option:hover {
+    background: coral;
+} */
+/* 
+.form > input {
+    
+    border: 2px solid coral;
+    background-color: black;
+    color: coral;
+    height: 33px;
+} */
+
+
+@media (max-width: 960px) {
+    .sizeCardContainer{
+        flex-direction: column;
+    }
+
+    .sizeCard {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 670px) {
+    .title{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        height: 50px;
+        width: 340px;
+        border: 2px solid #ffb627;
+        border-radius: 10px;
+        backdrop-filter: blur(5px)
+    }
+    
+    .title > h2 {
+        margin-right: 10px;
+        margin-left: 10px;
+        padding: 0px;
+        font-family: 'Roboto Condensed', sans-serif;
+        background-color: black;
+        color:white ;
+        border: 2px solid #ffb627;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    .sizeBoard {
+        margin-top: 7vh;
+        width: 340px;
+    }
+
+    .sizeCardContainer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .sizeCard {
+        min-height: 125px;
+        border: 1px solid black;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 1px 1px 11px 2px black;
+        transition: all 0.23s ease-in;
+    }
+    
+}

@@ -1,0 +1,82 @@
+.general{
+  /* border: solid 2px pink; */
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+}
+
+.general .swiper-container {
+  /* border: solid 2px green; */
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  width: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: black;
+  border: solid 4px black;
+}
+
+.general .swiper-slide { 
+  text-align: center;
+  font-size: 18px;
+  background: white;
+  display: flex;
+  height:100%;
+}
+
+.images{
+  /* border:solid 2px mediumaquamarine; */
+  width: 50%;
+}
+
+.general .swiper-slide img {
+  position: relative;
+  top:10px;
+  left:10px;
+  /* border:solid 2px blueviolet; */
+  display: block;
+  width: 130px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.info{
+  position: relative;
+  right: 0;
+  /* border: solid 2px orange; */
+  height: 100%;
+  width: 50%;
+}
+
+.info h2{
+  position: relative;
+  top:20%;
+  /* border: solid 2px blue; */
+  width: 100%;
+  font-size: 17px;
+  padding: auto;
+}
+
+.stars{
+  position: relative;
+  top:15%;
+  /* border: solid 2px red; */
+  margin-right:1%;
+  height: 10%;
+  font-size: 15px;
+  padding: auto;
+  width: 100%;
+}
+
+.blackStar{
+  color:black;
+}
+.star{
+  color:rgba(128, 128, 128, 0.229);
+}

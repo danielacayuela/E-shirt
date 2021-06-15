@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap%27');
+
+
+.container{
+    color:black;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 500;
+    display: grid;
+    justify-content: space-evenly;
+    text-align: center;
+
+    width: 280px;
+}
+
+.title{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 100%;
+    color: black;
+    border-radius: 10px;
+}
+.title:hover{
+
+    color: #ffb627;
+    top: -1vh;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.582);
+}
+.img{
+    width: 40px;
+    height: 40px;
+}

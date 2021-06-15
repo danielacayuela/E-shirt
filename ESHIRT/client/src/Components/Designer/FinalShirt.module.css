@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap%27');
+
+.container {
+    width: max-content;
+    display: flex;
+    height: 80vh;
+    margin: 55px auto;
+    padding-bottom: 0;
+    align-items: flex-end;
+}
+
+.finalShirt {
+    width: max-content;
+    height: max-content;
+    padding: 15px;
+    border: 2px solid #ffb627;
+    border-radius: 11px;
+}
+
+.finalShirt img {
+   width: 410px;
+   height: auto;
+    
+    
+}
+.submitContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 2vh;
+    height: 80%;
+    
+}
+
+.uploadText h3{
+    color: black;
+    font-size: 22px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.uploadForm {
+    margin: 0 auto;
+    height: 100%;
+    align-items: space-around;
+}
+
+.shareOptions{
+    display: flex;
+}
+
+.uploadForm > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    margin: 1vh;
+}
+
+.uploadForm > label {
+    font-family: 'Roboto Condensed';
+    margin: 1vh;
+}
+
+.uploadForm input {
+    border-radius: 30px;
+    width: 100%;
+    border: 2px solid #ffb627;
+    font-size: 15px;
+    outline: none;
+}
+.Desing{
+    color:black;
+}
+.Desing1{
+    color:black;
+}
+.Desing2{
+    color:black;
+}
+
+@media (max-width: 960px) {
+    .container {
+        flex-direction: column;
+        height: 85vh;
+    }
+
+    .submitContainer {
+        display: flex;
+        flex-direction: column;
+        margin: 2vh;
+        height: 90%;
+    }
+    
+    .uploadText h3{
+        color: black;
+        font-size: 20px;
+        font-family: 'Shadows Into Light', cursive;
+        height: 1vh;
+        padding: 0;
+        margin: 4vh;
+    }
+
+    .uploadForm {
+        margin: 0 auto;
+        height: 100%;
+        align-items: space-around;
+    }
+
+    .uploadForm > form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100%;
+        margin: 1vh;
+        padding: 1vh;
+    }
+
+    .finalShirt > img {
+        width: 360px;
+        height: auto;
+    }
+}
+
+@media (max-width: 610px) {
+    .container {
+        flex-direction: column;
+        height: 85vh;
+    }
+
+    .submitContainer {
+        display: flex;
+        flex-direction: column;
+        margin: 2vh;
+        height: 90%;
+    }
+    
+    .uploadText h3{
+        color: black;
+        font-size: 20px;
+        font-family: 'Shadows Into Light', cursive;
+        height: 1vh;
+        padding: 0;
+        margin: 4vh;
+    }
+
+    .uploadForm {
+        margin: 0 auto;
+        height: 100%;
+        align-items: space-around;
+    }
+
+    .uploadForm > form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100%;
+        margin: 1vh;
+        padding: 1vh;
+    }
+
+    .finalShirt {
+        margin: 1vh;
+    }
+
+    .finalShirt > img {
+        width: 360px;
+        height: 100%;
+    }
+}

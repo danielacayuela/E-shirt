@@ -1,0 +1,159 @@
+.containerOfDesign {
+    display: flex; 
+    position: relative;
+    width: 80%;
+    flex-direction: column; 
+    max-width: 100vw;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    min-height: max-content;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 125px;
+    width: 40%;
+    border: 2px solid #ffb627;
+    border-radius: 10px;
+    backdrop-filter: blur(5px)
+}
+
+.title > h2 {
+    margin-right: 40px;
+    margin-left: 40px;
+    padding: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: black;
+    color:white ;
+    border: 2px solid #ffb627;
+    border-radius: 10px;
+}
+
+/* .title > form > select {
+    border: 2px solid coral;
+    background-color: black;
+    color: coral;
+    outline: none;
+    height: 33px;
+}
+
+.title > form > select > option {
+    border: 2px solid coral;
+    background-color: black;
+    color: coral;
+}
+ */
+/* .title > form > input {
+    border: 2px solid coral;
+    background-color: black;
+    color: coral;
+    height: 33px;
+}
+ */
+.AvailableShirts {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    animation: pageClick 0.4s forwards ease-in;
+    
+}
+
+.GoAhead {
+    background-color: rgb(41, 146, 111);
+    color: white;
+    border-radius: 15px;
+}
+
+.ShirtAvatar {
+    width: 360px;
+    height: 455px;
+    cursor: pointer;
+    transition: all 0.22s ease-in;
+}
+.ShirtAvatar img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.ShirtAvatar:hover {
+    background-color: rgb(85, 85, 85);
+}
+
+
+@keyframes pageClick{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+
+@media (max-width: 950px) {
+    .container {
+        right: 0;
+    }
+
+    .AvailableShirts {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 670px) {
+    .title{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        height: 50px;
+        width: 340px;
+        border: 2px solid #ffb627;
+        border-radius: 10px;
+        backdrop-filter: blur(5px)
+    }
+    
+    .title > h2 {
+        margin-right: 10px;
+        margin-left: 10px;
+        padding: 0px;
+        font-family: 'Roboto Condensed', sans-serif;
+        background-color: black;
+        color:white ;
+        border: 2px solid #ffb627;
+        border-radius: 10px;
+    }
+}
+
+/* @media (max-width: 400px) {
+    .title{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        height: 50px;
+        width: 340px;
+        border: 2px solid #ffb627;
+        border-radius: 10px;
+        backdrop-filter: blur(5px)
+    }
+    
+    .title > h2 {
+        margin-right: 10px;
+        margin-left: 10px;
+        padding: 0px;
+        font-family: 'Roboto Condensed', sans-serif;
+        background-color: black;
+        color:white ;
+        border: 2px solid #ffb627;
+        border-radius: 10px;
+    }
+} */

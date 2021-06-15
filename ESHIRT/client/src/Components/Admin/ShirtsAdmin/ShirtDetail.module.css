@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap%27');
+
+
+.Total{
+    font-family: 'Shadows Into Light', cursive;
+color: black;
+}
+.ChangesTitle{
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    font-size: 200%;
+}
+.General{
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap:  wrap ;
+    
+}
+.Tarjet{
+    border: 2px solid black;
+    border-radius: 5px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap:  wrap ;
+    position: relative;
+    top: 0;
+    transition: all 0.1s ease-in;
+    border-radius: 2vh;
+}
+.Tarjet:hover{
+    top: -1vh;
+    box-shadow: 0 4px 5px rgba(170, 169, 169, 0.582);
+    align-items: center;
+    align-content: center;
+    flex-wrap:  wrap ;
+  }
+.Change{
+    display: flex;
+    flex-wrap:  wrap ;
+    flex-direction: column;
+    padding-left: 3vw; 
+}
+.ChangesCategory{
+    font-family: 'Shadows Into Light', cursive;
+color: black;
+font-size: 150%;
+}
+.Categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap:  wrap ;
+}
+.Categories1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap:  wrap ;
+    margin-left: 47%;
+    margin-right: 47%;
+}
+/* .ChangesTitle{
+    
+    color: #ffb627;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap:  wrap ;
+} */
+.BtnChange{
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap:  wrap ;
+    justify-content: center;  
+}
+.BtnChange1{
+    transition: ease-in 0.5s;
+    padding: 2vh;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 150%;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: black;
+    color: white;
+    border-radius: 3vh;
+}
+.BtnChange1:hover{
+    border-radius: 3vh;
+    background-color: black;
+    color: white;
+    padding: 3vh;
+}
+.BtnConsult{
+    background-color: black;
+    color: white;
+    border-radius: 3vh;
+    transition: ease-in 0.7s;
+}
+.BtnConsult:hover{
+    background-color: white;
+    color: black;
+    border-radius: 3vh;
+    transition: ease-in 0.5s;
+}
+.Buttons{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.Btn3{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.Btn3:hover{
+    color:#ffb627;
+  }

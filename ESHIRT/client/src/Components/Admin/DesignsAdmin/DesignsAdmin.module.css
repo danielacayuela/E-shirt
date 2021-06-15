@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap%27');
+
+
+.Designs{
+    display: flex;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap:  wrap ;  
+}
+.Img{
+    width: 80px; height: 80px;
+  }
+
+.Title{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: 'Shadows Into Light', cursive;
+    align-items: center;
+    align-content: center;
+    flex-wrap:  wrap ;  
+    font-size: 250%;
+}
+.Btn{
+    font-family: 'Shadows Into Light', cursive;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap:  wrap ;  
+}
+.Btn3{
+    display: flex;
+    justify-content: center;
+    color: black;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-wrap:  wrap ;  
+    font-size: 150%;
+}
+.Btn3:hover{
+    display: flex;
+    justify-content: center;
+    color: #ffb627;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-wrap:  wrap ;  
+    font-size: 150%;
+}
+.Btn4{
+    display: flex;
+    font-family: 'Roboto Condensed', sans-serif;
+    justify-content: center;
+    color: black;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-wrap:  wrap ;  
+}
+.Tarjet{
+    border: 2px solid black;
+    background-color: rgba(255, 252, 80, 0.151);
+    border-radius: 5px ;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap:  wrap ;  
+    
+}
+.Titles2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap:  wrap ; 
+    background-color: black;
+    color: white;
+    border-radius: 2vh; 
+}
+.Titles2:hover{
+    padding: 0.4vh;
+}
+.General{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap:  wrap ;  
+}
+.Options{
+    display: flex;
+    justify-content: center;
+    margin-left: 43%;
+    margin-right: 43%;
+}
+.pagination {
+    display: flex;
+    padding: 0;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+    height: 10vh;
+    width: 100%;
+  }
+  .pagination__link {
+    font-weight: bold;
+  }
+  .pagination__link__active a {
+    color: black;
+    background: #ffb627;
+  }
+  .pagination__link__disabled a {
+    color: black;
+  }

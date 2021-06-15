@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap%27');
+
+.header {
+    font-family: 'Shadows Into Light', cursive;
+    color: #ffb627;
+    background-color: black;
+    font-size: 28px;
+    border-radius: 5px;
+    padding-left: 5%;
+}
+
+.shadowsFamily {
+    font-family: 'Shadows Into Light', cursive;
+    color: #ffb627;
+    background-color: black;
+}
+
+.robotoFamily {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #ffb627;
+    background-color: black;
+}
+
+.LinkMessage {
+    color: '#ffb627'; 
+    background-color: 'white';
+    border-radius: '10px';
+    padding: '10px';
+    border: '2px solid #ffb627';
+}
+
+.container{
+    position: fixed;
+    top: 7%;
+    left: 75%;
+}
+
+.box{
+    position: relative;
+    top: 40%;
+    left: 0%;
+    
+}
+
+.closeButton{
+    position: absolute;
+    top: 2%;
+    left: 85%;
+    z-index: 100;
+    background: #ffb627;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 10%;
+    height: 5%;
+    font-size: 120%;
+}
+
+.img{
+    position: fixed;
+    top:75%;
+    /* margin-top: 60px; */
+    width: 70px;
+    height: 70px;
+    right: 70px;
+    border-radius: 100%;
+    border: 2px solid black;
+    backdrop-filter: blur(15px);
+}
+
+@media (max-width: 960px) {
+    .container{
+        position: fixed;
+        top: 0%;
+        left: 75%;
+    }
+    
+    .img {
+        position: fixed;
+        top:85%;
+        /* margin-top: 60px; */
+        width: 40px;
+        height: 40px;
+        right: 40px;
+        border-radius: 100%;
+        border: 2px solid black;
+        backdrop-filter: blur(15px);  
+    }
+    
+    .box{
+        position: relative;
+        top: 0%;
+        left: -100%;        
+    }
+}
+
+
